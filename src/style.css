@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    /* overflow: hidden; */
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+
+
+
+.navbar
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #000000;
+    justify-content: space-around;
+    font-size: 25px;
+    list-style: none;
+    padding: 25px;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.allplanets
+{
+    list-style: none;
+    display: none;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+
+.planetsname {
+    display: none;
+  }
+  
+  .planetsname.show {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+.planetsname{
+    padding: 5px;
+}
